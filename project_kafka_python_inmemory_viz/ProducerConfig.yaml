@@ -1,0 +1,9 @@
+CPATH_NAME : '/home/rv/projects/ialog/project_kafka_python_inmemory_viz/DataFile'
+CFILE_NAME : 'yellow_tripdata_2025-01.parquet'
+bootstrap.servers : 'localhost:29092,localhost:39092,localhost:49092'
+acks : 'all'
+linger.ms : 5
+batch.size : 16384
+compression.type : 'lz4'
+enable.idempotence : True
+produce.offset.report : True
